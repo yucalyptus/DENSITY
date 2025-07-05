@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゆかスキンクリニック - DENSITY治療</title>
+    <meta name="description" content="切らない高周波治療DENSITYで、年齢とともに気になるたるみを改善。1回でも効果を実感できる安全な治療法です。">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="src/assets/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="src/assets/logo.svg">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="src/assets/logo.svg" alt="ゆかスキンクリニック" class="logo">
+                <button class="menu-toggle" id="menuToggle">
+                    <span class="menu-icon">☰</span>
+                    <span class="close-icon">×</span>
+                </button>
+            </div>
+            
+            <!-- ナビゲーションメニュー -->
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">ホーム</a></li>
+                    <li><a href="#about" class="nav-link">DENSITYとは</a></li>
+                    <li><a href="#pricing" class="nav-link">料金プラン</a></li>
+                    <li><a href="#cases" class="nav-link">症例写真</a></li>
+                    <li><a href="#treatment-flow" class="nav-link">治療の流れ</a></li>
+                    <li><a href="#faq" class="nav-link">よくある質問</a></li>
+                    <li><a href="#doctor" class="nav-link">院長紹介</a></li>
+                    <li><a href="#contact" class="nav-link">お問い合わせ</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#contact" class="btn btn-primary">無料カウンセリング予約</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <!-- ファーストビュー -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        年齢とともに気になる<br>
+                        <span class="text-pink">「たるみ」</span>に。
+                    </h1>
+                    <p class="hero-subtitle">
+                        切らない高周波治療<span class="text-pink bold">DENSITY</span>で、<br>
+                        自信の持てるハリ肌へ。
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-lg">
+                            📞 無料カウンセリング予約
+                        </a>
+                        <a href="#about" class="btn btn-outline btn-lg">
+                            詳しく見る
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- お悩み -->
+        <section class="concerns">
+            <div class="container">
+                <h2 class="section-title">こんなお悩みありませんか？</h2>
+                <div class="hero-image">
+                        <img src="src/assets/hero.png" alt="DENSITY治療を受ける女性">
+                    </div>
+                <div class="concerns-grid">
+                    <div class="concern-card">
+                        <div class="concern-icon">💔</div>
+                        <p>最近、顔のたるみが気になる…</p>
+                    </div>
+                    <div class="concern-card">
+                        <div class="concern-icon">😔</div>
+                        <p>ほうれい線が深くなってきた気がする</p>
+                    </div>
+                    <div class="concern-card">
+                        <div class="concern-icon">❓</div>
+                        <p>美容治療は初めてで、何から始めたらいいか分からない</p>
+                    </div>
+                    <div class="concern-card">
+                        <div class="concern-icon">✨</div>
+                        <p>メスを使わずに、自然な若返りをしたい</p>
+                    </div>
+                </div>
+                <div class="concerns-cta">
+                    <p class="concerns-text">
+                        そんなあなたに、<span class="text-pink bold">DENSITY</span>がおすすめです。
+                    </p>
+                    <a href="#about" class="btn btn-primary">DENSITYの詳細を見る</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- DENSITYとは -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">DENSITYとは？</h2>
+                <div class="about-intro">
+                    <p class="about-text">
+                        DENSITYは、<span class="text-pink bold">皮膚表面を傷つけずに</span>たるみ改善ができる韓国で人気の6.78MHz高周波治療です。<br>
+                        <span class="text-pink bold">直後から効果を実感</span>でき、<span class="text-pink bold">効果の持続は6ヶ月〜1年</span>という長期間の美肌効果を実現します。
+                    </p>
+                </div>
+
+                <div class="effects-grid">
+                    <div class="effect-card immediate">
+                        <h4>即時効果</h4>
+                        <p class="effect-timing">施術直後から実感</p>
+                        <ul>
+                            <li><img src="src/assets/Checkbox.svg" alt="チェック" class="checkbox-icon"> 肌の引き締まり</li>
+                            <li><img src="src/assets/Checkbox.svg" alt="チェック" class="checkbox-icon"> 化粧ノリの改善</li>
+                            <li><img src="src/assets/Checkbox.svg" alt="チェック" class="checkbox-icon"> 毛穴の引き締まり</li>
+                        </ul>
+                        <span class="effect-note">熱による血流改善・タイトニング効果</span>
+                    </div>
+                    
+                    <div class="effect-card sustained">
+                        <h4> 持続効果</h4>
+                        <p class="effect-timing">1ヶ月後にピーク、6ヶ月〜1年持続</p>
+                        <ul>
+                            <li><img src="src/assets/Checkbox.svg" alt="チェック" class="checkbox-icon"> 新しいコラーゲンが生成</li>
+                            <li><img src="src/assets/Checkbox.svg" alt="チェック" class="checkbox-icon"> 肌を支える靭帯や脂肪隔壁が強化</li>
+                            <li><img src="src/assets/Checkbox.svg" alt="チェック" class="checkbox-icon"> 根本的なたるみ・小じわの改善</li>
+                            <li><img src="src/assets/Checkbox.svg" alt="チェック" class="checkbox-icon"> 肌質の総合的向上</li>
+                        </ul>
+                        <span class="effect-note">線維芽細胞活性化によるコラーゲンの再構築</span>
+                    </div>
+                </div>
+
+                <div class="about-synergy">
+                    <h3 class="synergy-title">DENSITYの特許技術</h3>
+                    <p class="synergy-description">
+                        モノポーラーとバイポーラーの高周波を併用することで、浅層から深層まで効果的にアプローチします。
+                    </p>
+                        <div class="about-mechanism">
+                    <img src="src/assets/mechanism.png" alt="DENSITYのメカニズム">
+                </div>
+                </div>
+
+            
+            </div>
+        </section>
+
+        <!-- 料金プラン -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <h2 class="section-title">DENSITY料金プラン</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card pricing-recommended">
+                        <div class="pricing-badge">おすすめ</div>
+                        <div class="pricing-header">
+                            <p class="pricing-subtitle">しっかりとした効果をお求めの方に</p>
+                            <h3 class="pricing-title">300ショット</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <div class="price-original">通常価格 110,000円</div>
+                            <div class="price-current">【WEB限定価格】99,000円</div>
+                            <div class="price-discount">11,000円お得！</div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-full">このプランで予約</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <p class="pricing-subtitle">お試しプラン。たるみの予防に</p>
+                            <h3 class="pricing-title">150ショット</h3>
+                        </div>
+                        <div class="pricing-price">
+                            <div class="price-original">通常価格 59,400円</div>
+                            <div class="price-current">【WEB限定価格】55,000円</div>
+                            <div class="price-discount">4,400円お得！</div>
+                        </div>
+                        <a href="#contact" class="btn btn-outline btn-full">このプランで予約</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-cta">
+                    <a href="#contact" class="btn btn-primary">【WEB限定】無料カウンセリングで詳しく相談</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 症例写真 -->
+        <section id="cases" class="cases">
+            <div class="container">
+                <h2 class="section-title">DENSITY症例写真</h2>
+                <div class="cases-slider">
+                    <div class="slider-header">
+                        <h3 class="slider-title" id="caseTitle">40代女性 - 顔全体のたるみ改善</h3>
+                        <p class="slider-subtitle" id="caseDescription">300ショット施術後１ヶ月の経過</p>
+                    </div>
+                    
+                    <div class="slider-content">
+                        <div class="before-after">
+                            <div class="before-after-item">
+                                <img id="beforeImage" src="src/assets/case1before.png" alt="施術前">
+                                <div class="before-after-label before-label">Before</div>
+                            </div>
+                            <div class="before-after-item">
+                                <img id="afterImage" src="src/assets/case1after.png" alt="施術後">
+                                <div class="before-after-label after-label">After</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-controls">
+                        <button class="slider-btn" id="prevBtn">‹</button>
+                        <div class="slider-dots" id="sliderDots">
+                            <button class="dot active" data-slide="0"></button>
+                            <button class="dot" data-slide="1"></button>
+                            <button class="dot" data-slide="2"></button>
+                            <button class="dot" data-slide="3"></button>
+                        </div>
+                        <button class="slider-btn" id="nextBtn">›</button>
+                    </div>
+
+                    <div class="cases-disclaimer">
+                        <p>※効果には個人差があります。施術結果を保証するものではありません。</p>
+                        <div class="side-effects">
+                            <h4>起こりうる副作用・リスク</h4>
+                            <ul>
+                                <li>施術直後の軽度の赤み・熱感（数時間程度）</li>
+                                <li>軽度の腫れ（1-2日程度）</li>
+                                <li>まれに、火傷とその後の色素沈着</li>
+                            </ul>
+                        
+                        </div>
+                        <a href="#contact" class="btn btn-primary">【WEB限定特典】無料カウンセリング予約</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 治療の流れ -->
+        <section id="treatment-flow" class="treatment-flow">
+            <div class="container">
+                <h2 class="section-title">治療の流れ</h2>
+                <div class="flow-grid">
+                    <div class="flow-card">
+                        <div class="flow-number">1</div>
+                        <h3 class="flow-title">カウンセリング</h3>
+                        <img src="src/assets/counseling.png" alt="カウンセリング">
+                        <p class="flow-description">
+                            お肌の状態やご希望を丁寧にお伺いし、最適な治療プランをご提案いたします。
+                        </p>
+                    </div>
+
+                    <div class="flow-card">
+                        <div class="flow-number">2</div>
+                        <h3 class="flow-title">施術</h3>
+                        <img src="src/assets/density.png" alt="DENSITY施術">
+                        <p class="flow-description">
+                            冷却機能により痛みを軽減しながら、安全で効果的な施術を行います。
+                        </p>
+                    </div>
+
+                    <div class="flow-card">
+                        <div class="flow-number">3</div>
+                        <h3 class="flow-title">アフターケア</h3>
+                        <img src="src/assets/makeup.png" alt="メイクアップ">
+                        <p class="flow-description">
+                            施術後の注意点やケア方法について詳しくご説明いたします。
+                        </p>
+                        <div class="flow-highlight">
+                            <p class="highlight-text">✨ メイクして帰れます！</p>
+                            <p class="highlight-subtitle">ダウンタイムがないので、施術後すぐにメイクアップしてお帰りいただけます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- よくある質問 -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2 class="section-title">よくある質問</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>痛みはありますか？</span>
+                            <span class="faq-toggle">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>DENSITYは冷却機能により、施術中の痛みを大幅に軽減しています。多くの患者様が「温かい感じ」程度とおっしゃっています。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>ダウンタイムはありますか？</span>
+                            <span class="faq-toggle">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>基本的にダウンタイムはありません。まれに軽い赤みや熱感が生じることがありますが、数時間で落ち着きます。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>効果はいつから実感できますか？</span>
+                            <span class="faq-toggle">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>施術直後から引き締め効果を実感いただけます。さらに1か月後にコラーゲンが生成され、この効果は最大6か月持続します。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>何回くらい受ける必要がありますか？</span>
+                            <span class="faq-toggle">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>個人差がありますが、1回でも効果を実感いただけます。より持続的な効果をお求めの場合は、3～6か月間隔での施術をおすすめしています。</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>HIFUとDENSITYの違いは何ですか？</span>
+                            <span class="faq-toggle">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="comparison-image">
+                                <img src="src/assets/HIFUvsDENSITY.png" alt="HIFUとDENSITYの比較" class="comparison-illustration">
+                            </div>
+                            <div class="comparison-content">
+                                <p>HIFUもたるみの治療ですが、皮膚の深部にドット状に熱を集中させ筋膜を収縮させたり脂肪を収縮します。布をまち針で少しずつ止めるようなイメージで『引き上げ』効果があります。</p>
+                                <p>DENSITYとは機序が異なり、相乗効果もあります。同日の施術も可能です。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 院長紹介 -->
+        <section id="doctor" class="doctor">
+            <div class="container">
+                <h2 class="section-title">院長紹介</h2>
+                <div class="doctor-card">
+                    <img src="src/assets/profilephoto.jpg" alt="院長" class="doctor-photo">
+                    <div class="doctor-info">
+                        <h3 class="doctor-name">院長 青木由佳</h3>
+                        <p class="doctor-message">
+                            患者様一人ひとりのお悩みに寄り添い、安全で効果的な治療をご提供することを心がけております。
+                            美容治療が初めての方も、どうぞお気軽にご相談ください。
+                            あなたの理想の肌を一緒に目指しましょう。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- お問い合わせ・アクセス -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">お問い合わせ・アクセス</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 class="contact-title">ゆかスキンクリニック</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📞</span>
+                                <span>03-6262-5515</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <span>東京都千代田区有楽町1-6-10　スクワール日比谷８F</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">🕐</span>
+                                <div>
+                                    <p>月・火・木・金曜: 10:00-14:00 15:00-19:00</p>
+                                    <p>土日: 10:00-16:00</p>
+                                    <p>休診: 水・日曜日・祝日</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta">
+                        <h3 class="contact-title">【WEB限定】無料カウンセリング予約</h3>
+                        <p class="contact-description">
+                            お気軽にお問い合わせください。<br>
+                            専門スタッフが丁寧にご対応いたします。
+                        </p>
+                        <div class="contact-buttons">
+                            <a href="tel:03-6262-5515" class="btn btn-primary btn-full">
+                                📞 電話で予約
+                            </a>
+                            <a href="https://line.me/R/ti/p/@yuka-clinic" class="btn btn-outline btn-full">
+                                LINEで予約
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 私たちの想い -->
+        <section class="message">
+            <div class="container">
+                <h2 class="section-title">私たちの想い</h2>
+                <div class="message-content">
+                    <p>ゆかスキンクリニックは、患者さま一人ひとりのお悩みに丁寧に寄り添えるクリニックでありたいと考えています。</p>
+                    <p>治療は、私たちが一方的に"提供するもの"ではなく、共に考え、納得して選び取っていくプロセスだと思っています。</p>
+                    <p>肌や容貌の変化を通して、明るい気持ちを取り戻し、晴れやかな気持ちで毎日を過ごしていただきたい。</p>
+                    <p>私たちは、日々の変化にも寄り添い、継続的にサポートする存在でありたいと願っています。</p>
+                    <div class="message-highlight">
+                        <p class="highlight-text">まずは、あなたのお悩みを聞かせてください。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <!-- 固定CTAバー -->
+        <div class="fixed-cta" id="contact-cta">
+            <a href="tel:03-6262-5515" class="cta-item">
+                <span class="cta-icon">📞</span>
+                <span class="cta-text">電話</span>
+            </a>
+            <a href="https://line.me/R/ti/p/@yuka-clinic" class="cta-item">
+                <span class="cta-icon">💬</span>
+                <span class="cta-text">LINE</span>
+            </a>
+            <a href="mailto:info@yuka-skin-clinic.com" class="cta-item">
+                <span class="cta-icon">📧</span>
+                <span class="cta-text">メール</span>
+            </a>
+        </div>
+        
+        <div class="container">
+            <img src="src/assets/logo.svg" alt="ゆかスキンクリニック" class="footer-logo">
+            <p class="footer-copyright">
+                &copy; 2025 ゆかスキンクリニック. All rights reserved.
+            </p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">プライバシーポリシー</a>
+                <a href="#" class="footer-link">利用規約</a>
+                <a href="#" class="footer-link">アクセス</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
