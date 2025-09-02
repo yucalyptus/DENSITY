@@ -95,26 +95,26 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: '40代女性 - 顔全体のたるみ改善',
             description: '300ショット施術後１ヶ月の経過',
-            before: 'src/assets/case1before.png',
-            after: 'src/assets/case1after.png'
+            before: 'src/case1before.png',
+            after: 'src/case1after.png'
         },
         {
             title: '40代女性 - ほうれい線・毛穴の改善',
             description: '３００ショット施術後１ヶ月の経過',
-            before: 'src/assets/case2before.png',
-            after: 'src/assets/case2after.png'
+            before: 'src/case2before.png',
+            after: 'src/case2after.png'
         },
         {
             title: '40代男性 - 頬周りのコケ・肌質改善',
             description: '300ショット施術後１ヶ月の経過',
-            before: 'src/assets/case3before.png',
-            after: 'src/assets/case3after.png'
+            before: 'src/case3before.png',
+            after: 'src/case3after.png'
         },
         {
             title: '40代女性 - たるみ改善・小顔効果',
             description: '150ショット施術後1ヶ月の経過',
-            before: 'src/assets/case4Before.png',
-            after: 'src/assets/case4After.png'
+            before: 'src/case4Before.png',
+            after: 'src/case4After.png'
         }
     ];
     
